@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "on-tertiary-container": "#100200", "primary-fixed": "#ffdbcd", "secondary": "#83533c", "surface-container-highest": "#e4e2df", "primary-fixed-dim": "#f6b99f", "on-primary-fixed-variant": "#673c29", "on-error-container": "#93000a", "outline": "#84746e", "on-secondary-fixed": "#331202", "on-primary": "#ffffff", "tertiary-container": "#9d6b57", "secondary-fixed-dim": "#f7b89c", "on-surface-variant": "#51443f", "on-secondary": "#ffffff", "tertiary-fixed-dim": "#f5b9a2", "surface-bright": "#fbf9f6", "primary": "#7f513c", "surface-tint": "#82533e", "tertiary": "#815341", "on-tertiary-fixed-variant": "#663c2b", "on-secondary-fixed-variant": "#673c27", "on-primary-fixed": "#321204", "surface-container-lowest": "#ffffff", "surface-container-low": "#f5f3f0", "on-tertiary": "#ffffff", "surface": "#fbf9f6", "on-secondary-container": "#794b34", "inverse-on-surface": "#f2f0ed", "on-tertiary-fixed": "#321205", "surface-dim": "#dbdad7", "on-background": "#1b1c1a", "on-primary-container": "#fffbff", "outline-variant": "#d6c2bb", "primary-container": "#9b6853", "secondary-container": "#fdbea1", "secondary-fixed": "#ffdbcc", "surface-container": "#efeeeb", "error-container": "#ffdad6", "inverse-surface": "#30312f", "tertiary-fixed": "#ffdbce", "on-error": "#ffffff", "inverse-primary": "#f6b99f", "on-surface": "#1b1c1a", "surface-container-high": "#eae8e5", "surface-variant": "#e4e2df", "background": "#fbf9f6", "error": "#ba1a1a" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "space-sm": "0.5rem", "margin": "3rem", "gutter": "1.5rem", "space-xs": "0.25rem", "gutter-mobile": "1rem", "space-md": "1rem", "space-lg": "1.5rem", "space-xl": "2.5rem", "margin-mobile": "1.25rem" }, fontFamily: { "headline-md": ["Playfair Display"], "headline-lg": ["Playfair Display"], "label-md": ["Plus Jakarta Sans"], "headline-sm": ["Playfair Display"], "label-sm": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "title-md": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Playfair Display"], "display-lg-mobile": ["Playfair Display"], "display-lg": ["Playfair Display"] }, fontSize: { "headline-md": ["28px", { "lineHeight": "36px", "fontWeight": "500" }], "headline-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.06em", "fontWeight": "600" }], "headline-sm": ["22px", { "lineHeight": "28px", "fontWeight": "500" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.08em", "fontWeight": "500" }], "body-lg": ["16px", { "lineHeight": "26px", "fontWeight": "400" }], "body-md": ["14px", { "lineHeight": "22px", "fontWeight": "400" }], "title-md": ["18px", { "lineHeight": "26px", "fontWeight": "600" }], "headline-lg-mobile": ["28px", { "lineHeight": "36px", "fontWeight": "400" }], "display-lg-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "display-lg": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "400" }] } } } };</script><style>@layer base{html,body{width:100%;margin:0;padding:0;}body{overscroll-behavior-y:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface antialiased flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(45,42,38,0.04)] pt-safe"><div class="h-20 flex flex-col justify-between"><div class="h-14 px-gutter-mobile flex items-center justify-between"><div class="flex items-center gap-space-sm"><img alt="Zariya Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WkKc5-YFCE8kyXMQWjnA-JEhdqwB-YuLeWbseuhVquYCfClLOv-5L43pvELXZj42Hkpjp530CS-g_yZu5bZos_Bmqscnf7Ph3oUaBXqUC_j5HKm8ATra6ZCV3TZJNZZ3XCcQXRG0kRTSXiK041C3pFBiuPkAi5fkJGmxHuV6KU1WPy9RD-iLyNfxr_j2Q3LN62UyHj_PTD8YoCpArHMx__MGoblFWuSIGF3IUwNK1OeI_EsTvpGg5wa_c"/><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight">Zariya</span><span class="sr-only">Fashion</span></div><div class="flex items-center gap-space-xs"><button aria-label="Search discovery" class="w-11 h-11 flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors"><span class="material-symbols-outlined text-[22px]">search</span></button><button aria-label="Open drawer menu" class="w-11 h-11 flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors"><span class="material-symbols-outlined text-[22px]">menu</span></button><div class="ml-space-xs"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA7Y96RVRj-oF4Zeb9R1TiF8plQSJ-93NhUGULJbmjsmxfms1V_sf8f20yRx6uK0tawrSTa9HFN3YGaEQFEViaPn6d0bgdDtl-Jtmm2vfyGs7gzhFoCimGpmN1VGQ57UuOzkuvb7JRpGrqF_JYEfVgtBhF43m5Nj1J3E5X3CRS_dx94pZYOEW7exWY0fGSgbZn5Cisa1d2nAh8m1XatUxhl6OZXNX80MZjReKmyZnTN8DRs33G5ZoEa6w"/></div></div></div><div class="h-6 bg-surface-container-low px-gutter-mobile flex items-center justify-center"><p class="font-label-sm text-label-sm text-on-surface-variant tracking-wide uppercase flex items-center gap-space-xs"><span class="text-tertiary-container">✦</span> Discover your next favorite look <span class="text-tertiary-container">✦</span></p></div></div></header><main class="flex flex-col relative w-full pt-20 pb-24 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- Category Scrollable Pills -->
+<div class="w-full pt-space-sm pb-space-xs px-margin-mobile">
+<div class="flex items-center justify-between mb-space-xs">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary font-semibold">Curation No. 04</span>
+<h1 class="font-headline-md text-headline-md text-on-surface">Women's Fashion</h1>
+</div>
+<button aria-label="Sort options" class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-on-surface shadow-sm active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-[18px]">tune</span>
+</button>
+</div>
+<!-- Category Pills Track -->
+<div class="flex items-center gap-space-xs overflow-x-auto no-scrollbar py-space-xs -mx-margin-mobile px-margin-mobile">
+<button class="shrink-0 px-space-md py-1.5 rounded-full bg-on-surface text-surface font-label-md text-label-md shadow-sm transition-all">All Styles</button>
+<button class="shrink-0 px-space-md py-1.5 rounded-full bg-surface-container-low text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all">Kurtis &amp; Sets</button>
+<button class="shrink-0 px-space-md py-1.5 rounded-full bg-surface-container-low text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all">Dresses</button>
+<button class="shrink-0 px-space-md py-1.5 rounded-full bg-surface-container-low text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all">Co-ord Sets</button>
+<button class="shrink-0 px-space-md py-1.5 rounded-full bg-surface-container-low text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all">Festive Couture</button>
+<button class="shrink-0 px-space-md py-1.5 rounded-full bg-surface-container-low text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all">Saree Drapes</button>
+<button class="shrink-0 px-space-md py-1.5 rounded-full bg-surface-container-low text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all">Tops &amp; Shirts</button>
+</div>
+</div>
+<!-- Micro Filtering Bar -->
+<div class="px-margin-mobile py-space-xs">
+<div class="flex items-center gap-space-xs overflow-x-auto no-scrollbar">
+<button class="flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-high text-on-surface font-label-sm text-label-sm shrink-0 shadow-sm active:bg-surface-container-highest transition-colors">
+<span>Price: All</span>
+<span class="material-symbols-outlined text-[14px]">expand_more</span>
+</button>
+<button class="flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-high text-on-surface font-label-sm text-label-sm shrink-0 shadow-sm active:bg-surface-container-highest transition-colors">
+<span>Occasion</span>
+<span class="material-symbols-outlined text-[14px]">expand_more</span>
+</button>
+<button class="flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-high text-on-surface font-label-sm text-label-sm shrink-0 shadow-sm active:bg-surface-container-highest transition-colors">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary-container"></span>
+<span>Marketplace</span>
+<span class="material-symbols-outlined text-[14px]">expand_more</span>
+</button>
+<div class="h-4 w-px bg-outline-variant shrink-0 mx-0.5"></div>
+<span class="font-label-sm text-label-sm text-on-surface-variant shrink-0">128 Curated</span>
+</div>
+</div>
+<!-- Editorial Hero Banner -->
+<div class="px-margin-mobile pt-space-xs pb-space-sm">
+<div class="relative w-full rounded-2xl overflow-hidden shadow-md bg-surface-container-low">
+<div class="w-full h-48 bg-cover bg-center" data-alt="An ethereal editorial fashion photograph of an Indian model gracefully posing in a breezy handloom chanderi and modal silk kurti in warm terracotta and raw silk ivory tones. Soft golden hour daylight streaming through haveli arches, warm tactile mood, artistic low contrast, sophisticated minimalism." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCgKb-j9fh29r5hSM7rXsgNafphWES5W4aCuTSmwwc7auWYsQX4fKDNlR0_vBtiPjr6O9vXbtw3a_uI3y0mLEvPS9fyKl766bt83NihYSMbRB2FTUZNcUJ0UO0jv8x6KY30cANYXpbK8yJRoLjsmF9mJJ2kcL3y4-47omgd7ft3BTUa-doMi1ytEn8HkEm_PqO0LqXPFI4Zhkloaj-3lpwq0StLUNIszOkCIqxADGcvR6a9lWYwnNFSUw')">
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/90 via-on-surface/35 to-transparent flex flex-col justify-end p- space-md">
+<div class="flex items-center gap-1.5 mb-1">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary-fixed"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary-fixed font-semibold">Volume IX • Curated Edit</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-surface-container-lowest leading-tight">The Festive &amp; Daily Kurti Edit</h2>
+<p class="font-body-md text-body-md text-surface-container-high line-clamp-1 mt-0.5">Handpicked artisanal silhouettes from trusted marketplace vaults.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Product Discovery Grid (2-Column) -->
+<div class="px-margin-mobile pt-space-xs">
+<div class="flex items-center justify-between mb-space-sm">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm text-on-surface">Trending Pieces</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-semibold">Hand-tested</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-medium tracking-wide">Showing 8</span>
+</div>
+<div class="grid grid-cols-2 gap-3">
+<!-- Product 1 -->
+<div class="group flex flex-col rounded-xl bg-surface-container-low p-2 shadow-sm relative">
+<div class="relative w-full aspect-[4/5] rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="A luxurious forest green raw silk ethnic kurti set with delicate antique gold zardozi embroidery along the neckline paired with an organza tissue dupatta. Styled on a mannequin against warm muted sandstone walls with subtle atmospheric shadows." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA2YqYEXYMoFjr2nngYFwaAG0GcVel0Pe8ipiyVPNAPAHThOy9WswyXEd_inT4SqQivaiSxcw_4QKsygdfyK3mOk4G6ym5HiWfGA1XpkeM9BJpdTmkIKEoa29KBn940xTSzn-c5XB_gQWBJ5k9cYfdqfVUK5Ew02hGgLDnexSfDzHQ47a_Fa4KP5iTl-8vFsYLzmlfQ7ReWDkLjTzJESsan35gZ36MzugxEl0VJEk2clsP3QEcLgVep0w"/>
+<button aria-label="Save to wishlist" class="absolute top-2 right-2 w-7 h-7 rounded-full bg-surface/85 backdrop-blur-md flex items-center justify-center text-on-surface shadow-sm active:scale-90 transition-transform" onclick="toggleWishlist(this)">
+<span class="material-symbols-outlined text-[17px]">favorite</span>
+</button>
+<div class="absolute bottom-2 left-2 flex items-center gap-1 px-2 py-0.5 rounded-full bg-surface-container-lowest/90 backdrop-blur-md shadow-xs">
+<span class="w-1.5 h-1.5 rounded-full bg-amber-700"></span>
+<span class="font-label-sm text-[10px] font-semibold text-on-surface tracking-tight">Ajio Luxe</span>
+</div>
+</div>
+<div class="flex flex-col mt-2 flex-grow justify-between">
+<div>
+<span class="font-label-sm text-[10px] uppercase tracking-wider text-on-surface-variant font-medium">Anouk Heritage</span>
+<h3 class="font-body-md text-body-md text-on-surface font-medium line-clamp-2 leading-snug">Forest Green Silk Embroidered Kurta Set with Dupatta</h3>
+</div>
+<div class="mt-2">
+<div class="flex items-baseline gap-1.5 mb-2">
+<span class="font-title-md text-title-md text-on-surface font-semibold">₹3,499</span>
+<span class="font-label-sm text-label-sm text-outline line-through">₹5,999</span>
+</div>
+<button class="w-full py-2 px-2 rounded-full bg-on-surface text-surface font-label-sm text-label-sm font-semibold flex items-center justify-center gap-1 active:bg-primary transition-colors shadow-sm">
+<span>View Product</span>
+<span class="material-symbols-outlined text-[13px]">arrow_outward</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Product 2 -->
+<div class="group flex flex-col rounded-xl bg-surface-container-low p-2 shadow-sm relative">
+<div class="relative w-full aspect-[4/5] rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="A modern tiered midi summer dress in earthy terracotta linen with organic wooden buttons and a soft waist tie belt, photographed in natural bright daylight with gentle palm shadows." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDyeFCjirn_cwws6czGtev3KVpHhP0XlqJ90F6QO4jbvecV8NU3G02FBG-66CM-JFCMjyLgZXlb8TeUO7p8Dk6A2DoB-nfO9RDi1xinoDO18gBCtvyQW81AdRpL5LSoC-5BOX8wPfzQPgekIfooA_0okKZvlg1JQ22SHdtlLZJkrBniW0oDHNmf-E31iWa7_feqpHLZdEYQ0XLFKk7BzlQWcXUjGUMNPbH1IOeiPHAwqAcxPrbh-Dg8wg"/>
+<button aria-label="Save to wishlist" class="absolute top-2 right-2 w-7 h-7 rounded-full bg-surface/85 backdrop-blur-md flex items-center justify-center text-on-surface shadow-sm active:scale-90 transition-transform" onclick="toggleWishlist(this)">
+<span class="material-symbols-outlined text-[17px]">favorite</span>
+</button>
+<div class="absolute bottom-2 left-2 flex items-center gap-1 px-2 py-0.5 rounded-full bg-surface-container-lowest/90 backdrop-blur-md shadow-xs">
+<span class="w-1.5 h-1.5 rounded-full bg-pink-600"></span>
+<span class="font-label-sm text-[10px] font-semibold text-on-surface tracking-tight">Myntra</span>
+</div>
+</div>
+<div class="flex flex-col mt-2 flex-grow justify-between">
+<div>
+<span class="font-label-sm text-[10px] uppercase tracking-wider text-on-surface-variant font-medium">Taavi Organic</span>
+<h3 class="font-body-md text-body-md text-on-surface font-medium line-clamp-2 leading-snug">Linen Tiered Midi Summer Dress in Terracotta</h3>
+</div>
+<div class="mt-2">
+<div class="flex items-baseline gap-1.5 mb-2">
+<span class="font-title-md text-title-md text-on-surface font-semibold">₹1,850</span>
+<span class="font-label-sm text-label-sm text-outline line-through">₹2,999</span>
+</div>
+<button class="w-full py-2 px-2 rounded-full bg-on-surface text-surface font-label-sm text-label-sm font-semibold flex items-center justify-center gap-1 active:bg-primary transition-colors shadow-sm">
+<span>View Product</span>
+<span class="material-symbols-outlined text-[13px]">arrow_outward</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Product 3 -->
+<div class="group flex flex-col rounded-xl bg-surface-container-low p-2 shadow-sm relative">
+<div class="relative w-full aspect-[4/5] rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="An indigo and mud-resist dabu block print cotton peplum top with soft pleats styled with contemporary tapered dhoti pants in warm cream. High fashion editorial shot against a warm terracotta wall." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAPB70OiFsJggBKzgIl-WsDI8WH1_7fLA8yt4TOB136nNm4f-IIHBEVIW2XdtTZylpIQ6H06eKCXaYFt4QaXWuR0UpMUmhkQ26nP0cjpt9iJMp5JvPCRAzrpzG5TPEYd6WjQblThnMouK-aqCRXwA-mfdyl95JUlCcpfMlNV5jrV3tuSMVfT9BsLlQGcb00yXY5loJAkb0B5B4tQRsryA_2CoNKDq04SW1VEFIfwLSTGjpPEaJPTQNoDw"/>
+<button aria-label="Save to wishlist" class="absolute top-2 right-2 w-7 h-7 rounded-full bg-surface/85 backdrop-blur-md flex items-center justify-center text-on-surface shadow-sm active:scale-90 transition-transform" onclick="toggleWishlist(this)">
+<span class="material-symbols-outlined text-[17px]">favorite</span>
+</button>
+<div class="absolute bottom-2 left-2 flex items-center gap-1 px-2 py-0.5 rounded-full bg-surface-container-lowest/90 backdrop-blur-md shadow-xs">
+<span class="w-1.5 h-1.5 rounded-full bg-pink-600"></span>
+<span class="font-label-sm text-[10px] font-semibold text-on-surface tracking-tight">Myntra</span>
+</div>
+</div>
+<div class="flex flex-col mt-2 flex-grow justify-between">
+<div>
+<span class="font-label-sm text-[10px] uppercase tracking-wider text-on-surface-variant font-medium">FabIndia Edit</span>
+<h3 class="font-body-md text-body-md text-on-surface font-medium line-clamp-2 leading-snug">Printed Cotton Peplum Top with Dhoti Pants</h3>
+</div>
+<div class="mt-2">
+<div class="flex items-baseline gap-1.5 mb-2">
+<span class="font-title-md text-title-md text-on-surface font-semibold">₹2,100</span>
+<span class="font-label-sm text-label-sm text-outline line-through">₹3,200</span>
+</div>
+<button class="w-full py-2 px-2 rounded-full bg-on-surface text-surface font-label-sm text-label-sm font-semibold flex items-center justify-center gap-1 active:bg-primary transition-colors shadow-sm">
+<span>View Product</span>
+<span class="material-symbols-outlined text-[13px]">arrow_outward</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Product 4 -->
+<div class="group flex flex-col rounded-xl bg-surface-container-low p-2 shadow-sm relative">
+<div class="relative w-full aspect-[4/5] rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="A luminous handwoven Chanderi saree in delicate blush pastel tones with fine gold zari floral butis woven along the border. Draped with minimal poise in a sunlit warm arc
